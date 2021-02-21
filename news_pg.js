@@ -27,7 +27,7 @@ xhr.onload = function () {
     let newsHtml = '';
     article.forEach(function (element, index) {
       let news = `  <div class="card" >
-<img src="${article[index].image}"  width=700  height =500  />
+<img src="${article[index].image}"  width=500  height =500  />
 <div class="card-body">
   <h5 class="card-title">${article[index].title}</h5>
   <p class="card-text">
